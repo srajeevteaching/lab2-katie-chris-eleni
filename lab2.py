@@ -10,8 +10,8 @@ births = float(births)
 # repetition of above processes twice
 deaths = input("Enter the number of deaths per second of the population. ")
 deaths = float(deaths)
-imms = input("Enter the number of immigrants leaving. ")
-immigrations = float(imms)
+imms = input("Enter the number of immigrants leaving per second. ")
+imms = float(imms)
 pop = input("Enter the population size. ")
 pop = float(pop)
 years = input("Enter the desired projected years. ")
@@ -34,7 +34,7 @@ BAY = pop + (years * births)
 BAY = float(BAY)
 finalPop = (pop - (DAY + IAY) + BAY)
 finalPop = float(finalPop)
-print ("the population after ", years, "is", finalPop, sep = " " )
+print ("the population after ", years, "years is", finalPop, sep = " " )
 
 # births after so many years: births per second * 60 = minute * 60 = hour * 24 = day * 365 = year * years#
 # deaths after so many years: deaths per second * 60 = minute * 60 = hour *24 = day * 365 = year * years#

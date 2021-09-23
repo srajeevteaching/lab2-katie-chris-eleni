@@ -34,7 +34,7 @@ BAY = pop + (years * births)
 BAY = float(BAY)
 finalPop = (pop - (DAY + IAY) + BAY)
 finalPop = float(finalPop)
-print ("the population after ", years, "is", finalPop, sep = " " )
+print ("the population after ", years, "is", finalPop," ")
 
 # births after so many years: births per second * 60 = minute * 60 = hour * 24 = day * 365 = year * years#
 # deaths after so many years: deaths per second * 60 = minute * 60 = hour *24 = day * 365 = year * years#

@@ -4,11 +4,25 @@
 # Lab 2
 
 # creation of input variable
-birthInput = input("Enter the number of births per second of the population. ")
+births = input("Enter the number of births per second of the population. ")
 # typecast to int
-birthInt = int(birthInput)
+births = float(births)
 # repetition of above processes twice
-deathInput = input("Enter the number of deaths per second of the population. ")
-deathInt = int(deathInput)
-popInput = input("Enter the population size. ")
-popInt = int(popInput)
+deaths = input("Enter the number of deaths per second of the population. ")
+deaths = float(deaths)
+immigrations = input("Enter the number of immigrants. ")
+pop = input("Enter the population size. ")
+pop = float(pop)
+Years = input("Enter the desired projected years")
+Years = int(Years)
+
+#computations for determining population at desired projected year
+DAY = pop - (Years * deaths)
+DAY = float(DAY)
+IAY = pop - (Years * immigrations)
+IAY = float(IAY)
+BAY = pop + (Years * births)
+BAY = float(BAY)
+
+
+

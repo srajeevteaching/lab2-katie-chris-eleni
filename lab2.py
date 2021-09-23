@@ -23,6 +23,8 @@ IAY = pop - (Years * immigrations)
 IAY = float(IAY)
 BAY = pop + (Years * births)
 BAY = float(BAY)
+Finalpop = (pop - (DAY + IAY ) + BAY)
+Finalpop = float(Finalpop)
 
 
 

@@ -5,12 +5,13 @@
 
 # creation of input variable
 births = input("Enter the number of births per second of the population. ")
-# typecast to int
+# typecast to float
 births = float(births)
 # repetition of above processes twice
 deaths = input("Enter the number of deaths per second of the population. ")
 deaths = float(deaths)
 immigrations = input("Enter the number of immigrants leaving. ")
+immigrations = float(immigrations)
 pop = input("Enter the population size. ")
 pop = float(pop)
 Years = input("Enter the desired projected years")
@@ -25,6 +26,7 @@ BAY = pop + (Years * births)
 BAY = float(BAY)
 Finalpop = (pop - (DAY + IAY ) + BAY)
 Finalpop = float(Finalpop)
+print ("the population after ", Years, "is", Finalpop, sep = " " )
 
 # births after so many years: births per second * 60 = minute * 60 = hour * 24 = day * 365 = year * years#
 # deaths after so many years: deaths per second * 60 = minute * 60 = hour *24 = day * 365 = year * years#

@@ -2,7 +2,7 @@
 # Course: CS151 Dr. Rajeev
 # September 23, 2021
 # Lab 2
-
+# test
 # creation of input variable
 births = input("Enter the number of births per second of the population. ")
 # typecast to float

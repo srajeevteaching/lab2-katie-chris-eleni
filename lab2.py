@@ -2,7 +2,7 @@
 # Course: CS151 Dr. Rajeev
 # September 23, 2021
 # Lab 2
-# creation of input variable and converts from seconds to years
+
 secondsPerYear = 60*60*24*365
 births = input("Enter the number of births per second of the population. ")
 births = float(births) * secondsPerYear
@@ -16,10 +16,7 @@ years = input("Enter the desired projected years. ")
 years = int(years)
 
 pop = int(pop + (births * years) + (imms * years) - (deaths * years))
-print ("the population after ", years, "years is", pop, sep = " " )
-
-print("The future predicted population is,", finalPop)
-
+print("the population after ", years, "years is ", pop, sep = " " )
 
 
 

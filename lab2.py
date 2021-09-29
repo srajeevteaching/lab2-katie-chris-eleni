@@ -15,7 +15,7 @@ pop = float(pop)
 years = input("Enter the desired projected years. ")
 years = int(years)
 
-pop = int(pop + (births * years) + (imms * years) - (deaths * years))
+pop = int(pop + (births * years) - (imms * years) - (deaths * years))
 print("the population after ", years, "years is ", pop, sep = " " )
 
 
